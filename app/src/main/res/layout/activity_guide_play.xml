@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home_background"
+    android:gravity="center"
+    tools:context=".GuidePlayActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI LÀ TRIỆU PHÚ"
+        android:textColor="#FFAD34"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="   Người chơi sẽ phải vượt qua 15 câu hỏi của chương trình vói 3 mốc câu hỏi quan trọng là 5,10,15.
+        \n   Bạn có thể sử dụng 3 quyền trợ giúp 50/50, gọi điện thoại, hỏi ý kiến khán giả hoặc lựa chọn dừng cuộc chơi.
+        \n   Bạn có 30s để trả lời mỗi câu hỏi"
+        android:textColor="#CC5CDF"
+        android:textSize="20dp"/>
+
+</LinearLayout>
